@@ -1,0 +1,118 @@
+/* Navgation color and font*/ 
+
+.navbar-custom{
+    background-color: rgb(135, 162, 235);
+    font-family: "Comic Sans MS "
+    
+}
+
+
+
+
+.card{
+    border: none;
+
+}
+
+.container-my-5{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+
+}
+
+
+
+
+.card-img-top {
+    height: 250px;
+    object-fit:cover
+
+}
+
+
+
+.card.body { 
+
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+
+}
+
+
+.card-title { 
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+
+.card-text {
+    font-size:1rem;
+    font-family: 'Courier New', Courier, monospace; 
+
+
+
+}
+
+
+
+
+
+
+.hero-image{
+
+
+    background-image: url(".../Images/bouncy-castle-hero.png");
+  
+
+    height: 50vh;
+    background-position: center;
+    background-image: no repeat;
+    background-size: cover;
+
+
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.hero-text h1{
+    font-weight: bold;
+    color: skyblue;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS";
+}
+
+
+
+.hero-text P{
+    font-weight: bold;
+    color: WHITE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.card-group {
+    height: 50vh;
+
+}
+
+
+
+
+.card-body {
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

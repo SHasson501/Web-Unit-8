@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+     <!--Bootstrap-->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom css file-->
+<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+    <!--Nav start--> 
+
+  <nav class="navbar navbar-expand-lg navbar-custom">
+  <a class="navbar-brand" href="#">Life In Frame </a>
+   <img src="images/LOGO.webp" class="rounded-circle" width="40" height="40">
+  
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+ 
+</button>
+ 
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-us.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="staff.html">Staff</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="products.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">Contact Us </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    
+    
+    
+
+<!--Main Content -->
+
+
+<!--Contact form Start-->
+
+
+
+
+
+
+<meta charset="UTF-8">
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+<body>
+
+<!-- Main Start -->
+<div class="container mt-4">
+    <h3>CONTACT</h3>
+    <hr>
+    <h3 class="text-center">Contact Me Form</h3>
+    <hr>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <form
+            id="myForm"
+            style="width: 450px;"
+            class="was-validated"
+            onsubmit="myFormSubmits(event)"
+        >
+
+            <!-- Select Title -->
+            <div class="form-group mb-3">
+                <label for="nameTitle">Title</label>
+                <select
+                    id="nameTitle"
+                    class="form-control"
+                    name="Title"
+                    required
+                >
+                    <option value="">Please select title...</option>
+                    <option value="MR">Mr.</option>
+                    <option value="MISS">Miss.</option>
+                    <option value="MRS">Mrs.</option>
+                    <option value="DR">Dr.</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <!-- Full Name -->
+            <div class="form-group mb-3">
+                <label for="fullName">Full Name</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    name="Full Name"
+                    placeholder="Please enter your full name"
+                    required
+                >
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group mb-3">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="Email"
+                    placeholder="Please enter your email"
+                    required
+                >
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group mb-3">
+                <label for="phoneNumber">Phone Number</label>
+                <input
+                    type="tel"
+                    class="form-control"
+                    id="phoneNumber"
+                    name="Phone Number"
+                    placeholder="Please enter your phone number"
+                    required
+                >
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <!-- Address / Reason -->
+            <div class="form-group mb-3">
+                <label for="address">Reason for Contact</label>
+                <textarea
+                    class="form-control"
+                    id="address"
+                    rows="3"
+                    name="Contact Reason"
+                    placeholder="Reason for your contact..."
+                    required
+                ></textarea>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <!-- Upload CV -->
+            <div class="form-group mb-3">
+                <label for="uploadFact">Upload any inspiration images here</label>
+                <small class="text-muted">OPTIONAL</small>
+                <input
+                    type="file"
+                    class="form-control-file"
+                    id="uploadFact"
+                    name="File Upload"
+                >
+            </div>
+
+            <!-- Buttons -->
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-success">
+                    Submit Application
+                </button>
+                <button type="reset" class="btn btn-secondary">
+                    Reset
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- Main End -->
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- Optional JS Function -->
+<script>
+    function myFormSubmits(event) {
+        event.preventDefault();
+        alert("Form submitted!");
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--Contact Form End-->
+
+
+
+<!--Main Content End  -->
+
+
+
+
+
+
+
+<!--Footer -->
+
+ <footer> 
+
+
+<div class="card">
+  <div class="card-body">
+    Contact Details
+    
+<li>Phone Number: 0734568363</li>
+<li>Email address: LifeInFrame@gmail.com</li>
+<li>Address</li>
+  </div>
+</div>
+
+</footer>
+
+
+<!--Footer Ends -->
+ <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
