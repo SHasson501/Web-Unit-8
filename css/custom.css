@@ -125,3 +125,41 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+
+
+
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 0;
+}
+
+.star {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%,
+    68% 57%, 79% 91%, 50% 70%,
+    21% 91%, 32% 57%, 2% 35%,
+    39% 35%
+  );
+}
+
+.star.filled {
+  background: gold;
+}
+
+
+
+.site-footer {
+    background-color: rgb(135, 162, 235);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+
+}
