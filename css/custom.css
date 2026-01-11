@@ -97,13 +97,6 @@
 
 
 
-
-
-
-
-
-
-
 .star-rating {
   display: flex;
   justify-content: center;
@@ -189,17 +182,11 @@
 
 
 
-.card-img-services {
-    height: 250px;
-    object-fit: cover;
+.col-md-4 {
+    margin-bottom: 20px;
+    background-color: rgb(240, 248, 255);
 }
 
 
 
 
-.card h100 {
-    height: 100%;
-    background-color: rgb(135, 162, 235);
-    text-align: center;
-    color: white;
-}
