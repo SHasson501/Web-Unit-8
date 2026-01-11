@@ -24,6 +24,13 @@
 
 
 
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
 .card-img-top {
     height: 250px;
     object-fit:cover
@@ -64,45 +71,6 @@
 
 
 
-
-
-.hero-image{
-
-
-    background-image: url(".../Images/bouncy-castle-hero.png");
-  
-
-    height: 50vh;
-    background-position: center;
-    background-image: no repeat;
-    background-size: cover;
-
-
-    display:flexbox;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-.hero-text h1{
-    font-weight: bold;
-    color: skyblue;
-    text-transform: uppercase;
-    font-family: "Comic Sans MS";
-}
-
-
-
-.hero-text P{
-    font-weight: bold;
-    color: WHITE;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
 .card-group {
     height: 50vh;
 
@@ -125,6 +93,12 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+
+
+
+
+
 
 
 
@@ -190,4 +164,25 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(135, 162, 235);
     color: white;
+}
+
+
+.card-group-services {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.container-my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ background-color: rgb(240, 248, 255);
+
+
 }
