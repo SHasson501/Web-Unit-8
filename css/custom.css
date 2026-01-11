@@ -160,15 +160,17 @@
 }
 
 
-.card-group-services {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
+
+.card-img-services {
+    width: 500px;
+    height: 180px;
+    object-fit: cover;   
+    border-radius: 10px;
+    display: block;      
+    margin-left: auto;   
+    margin-right: auto;  
+}
 
 
 
