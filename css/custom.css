@@ -2,7 +2,8 @@
 
 .navbar-custom{
     background-color: rgb(135, 162, 235);
-    font-family: "Comic Sans MS "
+    font-family: "Xanh Mono", monospace;
+    font-weight: bold;
     
 }
 
@@ -39,19 +40,12 @@
 
 
 
-.card.body { 
-
-    text-align: center;
-    background-color: skyblue;
-    color: white;
-
-}
 
 
 .card-title { 
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Xanh Mono", monospace;
 
 
 
@@ -62,7 +56,7 @@
 
 .card-text {
     font-size:1rem;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'Xanh Mono', monospace; 
 
 
 
@@ -82,7 +76,7 @@
 .card-body {
     font-weight: bold;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Xanh Mono", monospace;
 }
 
 
@@ -92,6 +86,44 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+
+
+
+
+.About-Us {
+    font-family: "Xanh Mono", monospace;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.About-us-col-md-3 {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    margin:auto;
+    display: block; 
+    border-radius: 0.25rem;
+  
+}
+
+.card-img-top {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-bottom {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 
@@ -127,7 +159,7 @@
     color: white;
     text-align: center;
     padding: 20px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Xanh Mono, monospace;
 
 
 }
@@ -138,14 +170,14 @@
     background-color: rgb(135, 162, 235);
     color: white;
     padding: 20px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Xanh Mono", monospace;
 }
 
 
 
 .container-mt-4 {
     margin-top: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Xanh Mono", monospace;
 
 }
 
@@ -154,7 +186,7 @@
 
 .card-text-center {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Xanh Mono", monospace;
     background-color: rgb(135, 162, 235);
     color: white;
 }
@@ -193,7 +225,7 @@
 
 
 .d-flex justify-content-center {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Xanh Mono, monospace;
     font-size: 1.2rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -203,9 +235,41 @@
 }
 
 h8 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Xanh Mono, monospace;
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
     align-content: center;
+}
+
+
+
+/* Tab section */
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: rgb(135, 162, 235);
+}
+
+.tab button.active {
+  background-color: rgb(135, 162, 235);
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
 }
