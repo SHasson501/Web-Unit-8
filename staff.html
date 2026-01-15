@@ -88,9 +88,36 @@
   <img src="images/sarah staff member.png" class="img-fluid rounded-start" alt="woman with brown hair wearing a navy jumper ">
 </div>
 
+<!--JavaScript for Tabs-->
+
+<script>
+function openCity(evt, TabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(TabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
     <!--Tab section end-->
 
     <!--Main content end-->
+<br>
+<br> 
+
+
+
+
 
 <!--Footer -->
 
@@ -105,7 +132,7 @@
   </div>
 </div>
 
-
+<!--Star Rating Section-->
 <div class="site-footer">
   <div class="star-rating">
     <div class="star filled"></div>
@@ -116,6 +143,11 @@
   </div>
 </div>
   
+
+
+
+
+
 
 <div> &copy; 2025 Life In Frame. All Rights Reserved. </div>
 </footer>
