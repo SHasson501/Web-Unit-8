@@ -101,7 +101,7 @@
 }
 
 .About-us-col-md-3 {
-    width: 80%;
+    width: 70%;
     height: 200px;
     object-fit: cover;
     margin:auto;
@@ -112,11 +112,12 @@
 
 .card-img-top {
     width: 70%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 .card-img-bottom {
@@ -124,8 +125,26 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    display : block;
+    margin-left: auto;  
+    margin-right: auto;
 }
 
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
 
 
 
@@ -171,6 +190,12 @@
     color: white;
     padding: 20px 0;
     font-family: "Xanh Mono", monospace;
+}
+
+.footer-card-body {
+    font-family: "Xanh Mono", monospace;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
