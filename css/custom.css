@@ -190,6 +190,9 @@
     color: white;
     padding: 20px 0;
     font-family: "Xanh Mono", monospace;
+    overflow: hidden;
+    display : flex;
+    justify-content:space-between
 }
 
 .footer-card-body {
