@@ -172,6 +172,7 @@
 }
 
 
+/* Footer section */
 
 .site-footer {
     background-color: rgb(135, 162, 235);
@@ -183,7 +184,11 @@
 
 }
 
-
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Xanh Mono", monospace;
+}
 
 .footer-card {
     background-color: rgb(135, 162, 235);
@@ -192,14 +197,13 @@
     font-family: "Xanh Mono", monospace;
     overflow: hidden;
     display : flex;
-    justify-content:space-between
+    justify-content: center;
 }
 
 .footer-card-body {
     font-family: "Xanh Mono", monospace;
     font-size: 1rem;
     font-weight: bold;
-    align-content: center;
 }
 
 
