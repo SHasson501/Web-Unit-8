@@ -73,18 +73,21 @@
 
 <div id="Mary" class="tabcontent">
   <h3>Mary</h3>
+  <p>Job Title: Print Specialist</p>
   <p>My role here at life in frame is print the photographs taken onto canvas, I also create the photo books   </p>
   <img src="images/mary staff member.png" class="img-fluid rounded-start" alt="a woman with brown curly hair wearing a denim jacket">
 </div>
 
 <div id="Harry" class="tabcontent">
   <h3>Harry</h3>
+  <p>Job Title: Frame Builder</p>
   <p>My role here at Life In Frame is to build frames and frame the photographs </p>
   <img src="images/harry staff member.png" class="img-fluid rounded-start" alt="a man with brown hair wearing a blue jumper">
 </div>
 
 <div id="Sarah" class="tabcontent">
   <h3>Sarah </h3>
+  <p>Job Title: Photographer and Founder</p>
   <p>My role at life in frame is to take the photographs, I am also the business founder</p>
   <img src="images/sarah staff member.png" class="img-fluid rounded-start" alt="woman with brown hair wearing a navy jumper ">
 </div>
@@ -106,6 +109,11 @@ function openTab(evt, TabName) {
   document.getElementById(TabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".tablinks").click();
+});
+
 </script>
 
 
