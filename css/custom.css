@@ -312,3 +312,18 @@ h8 {
 
 
 
+
+.Thank-you-card {
+    margin: auto;
+    display: block;
+    width: 50%;
+    border: 2px solid rgb(135, 162, 235);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Xanh Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(240, 248, 255);
+}
